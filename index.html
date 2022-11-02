@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Carte produit | Parfum</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Preview
+  <main>
+    <article class="container">
 
-  Gabrielle Essence Eau De Parfum
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+      <div class="card-box">
 
-  $149.99
-  $169.99
+        <div class="img">
+          <img src="images/image-product-desktop.jpg" alt="img-desktop" >
+        </div>
 
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <div class="contenu">
+          <p class="produit-type">PERFUME</p>
+
+          <h1 class="produit-nom">Gabrielle Essence Eau De Parfum</h1>
+
+          <p class="produit-description">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+
+          <p class="prix">
+            <span class="new-prix">$149.99</span>
+            <span class="old-prix">$169.99</span>
+          </p>
+
+          <button class="bouton">
+            <img src="images/icon-cart.svg" alt="Cart Icon"> Add to Cart </img>
+          </button>
+        </div>
+      </div>
+
+    </article>
+  </main>
+
+
 </body>
+
 </html>
